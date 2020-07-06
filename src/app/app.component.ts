@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {Student} from "./student";
+
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   description = 'My Second App';
+  bio:Student = 
+    {sid:991000000, sname: "John Doe",
+     scampus: "Davis", slogin: "doej"};
+
 }
